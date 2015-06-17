@@ -1,0 +1,22 @@
+﻿Build started 17.06.2015 23:48:22.
+     1>Project "C:\Users\Vootele\Desktop\0\0.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Visual Leak Detector\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Scene.cpp
+         Scene.cpp
+     1>c:\users\vootele\desktop\0\scene.cpp(26): warning C4316: 'FirstPersonCamera': object allocated on the heap may not be aligned 16
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Vootele\Desktop\0\Debug\0.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\Vootele\Desktop\0\Debug\0.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Vootele\Desktop\0\Debug\0.lib" /MACHINE:X86 Debug\DirectX11Core.obj
+         Debug\Fileutils.obj
+         Debug\FirstPersonCamera.obj
+         Debug\Input.obj
+         Debug\main.obj
+         Debug\Renderable.obj
+         Debug\Scene.obj
+         Debug\Sky.obj
+         Debug\Timer.obj
+         0.vcxproj -> C:\Users\Vootele\Desktop\0\Debug\0.exe
+     1>Done Building Project "C:\Users\Vootele\Desktop\0\0.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.57
